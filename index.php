@@ -98,12 +98,138 @@
 
     <section class="bg-primary" id="what">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+            <div class="row" style="">
+
+                <div class="col-lg-8">
+                <h1>WHAT IS SPWI 2017 ?</h2>
+                <br>
+                 	<p align="justify">
+                 		Seminar  Pengembangan  Wawasan  Industri  (SPWI)  was first  delivered in  1999 and 
+						has  evolved  to  become  a  national  seminar  since 
+						2009.  Organized  by  Ikatan  Mahasiswa 
+						Teknik  Industri  (IMTI),  SPWI  is  annual  event  of  the  Department  of  Industrial
+						Engineering, 
+						Faculty  of  Engineering  Universitas  Indonesia.
+						The  aim  of  the  event  is  to  broaden  the 
+						horizon  of  views  of  not  just  Industrial  Engineering  students,  but  also  students  from  other 
+						disciplines.   Therefore,   each   year   SPWI   has   different   topics   based 
+						on   national   and 
+						international  current   issues.      This   is   to  make   sure   that   university   students,   as   future 
+						professionals,  will  be ready  to prepare and  contribute  for  the  solutions  of these  issues.
+					</p>
+					<p align="justify">
+						The  rise  of  Gojek,  Tokopedia,  Traveloka  and  other  notable  digital  start-ups  in 
+						Indonesia,  has  trigger  us  to 
+						bring  the  topic  of  entrepreneurship
+						that  is  in  the  heart  of  these start-ups. 
+						With  the Government  commitment  to increase  Indonesia’s  ranking in  the  World 
+						Bank’s Ease of  Doing Business, the  opportunity for entre
+						preneurs  in  building  and  growing 
+						their  business  looks  promising.  With  these  in  mind, 
+						we  proudly  present  you 
+						“
+						Approaching 
+						Entrepreneurial  World:  Start  Your  Strategic  Business  Through  Value  Management
+						”
+					</p>
+					<p align="justify">
+						SPWI  will  look  at  this  issue  by well-combined
+						with  multi-perspective sessions of variety  of  speaker from  ABG sectors  of Academics, 
+						Business enterprises  and Government. 
+						The   discussion   will   deliver   topics   regarding   entrepreneurship,   market,   innovation 
+						and sustainability, and value co-creation.  We  also 
+						introduce  3 new  activities in  SPWI
+						2017:Pre-Event/Exhibition,  Business  Plan  Competition  and  Workshop. 
+						These  3  events  will  act 
+						as  catalysts  for  its  participant  in  understanding  required  to  start  a  new  business,  creating 
+						value  together  with  the  customer  (co-creation) 
+						and  growing  it  into  a  sustainable  business 
+						endeavor. 
+
+					</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="background">
+        <div class="container">
+            <div class="row" style="">
+
+                <div class="col-lg-8">
+                <h1>OUR BACKGROUND </h2>
+                 <br>	
+                 	<p align="justify">
+                 		Small  and  medium  sized  enterprises  (MSMEs)  and  entrepreneurs  play  an  important  role  in 
+						the  Indonesian 
+						Economy.  As  in  the  case  of  United  States,  young  firms  have  been  shown  to 
+						be  a  more  i
+						mportant  source  of  net  job  creation  than  incumbent  firm. 
+						Entrepreneurship  is 
+						one  of  the  highly  discussed  topic  recently. 
+						Therefore,  o
+						ne  of  the 
+						important 
+						indicator  of  a 
+						country’s prosperity is the  ratio of entrepreneurs  or business owners.  A country with  h
+						igh 
+						amount  of  business  owners  would  have  a  competitive  society,  one  where  the  population 
+						strive  to create value  while  simultaneously  increase  the well
+						-
+						being  of the  society
+					</p>
+					<p align="justify">
+						Indonesia  currently  sits  among  the  countries  with  lowest  entrepreneurs  or  business 
+						owners 
+						compared  to  the  national  population,  even  among  ASEAN  countries.  On  the  other  side, 
+						Indonesia  has  one  of  the  largest  and  fastest  in  growth  young 
+						productive 
+						population  in  the 
+						world
+						. 
+						This  come  at  the 
+						time 
+						where 
+						information  technologies  have  been 
+						aggr
+						essively 
+						adopted in  broad  applications  for  various  purposes and  reasons.  This  create  a  well  informed 
+						and  highly   enthusiastic  large   young   population  who   sees   entrepreneurship  as   a   better 
+						venture  than 
+						traditional 
+						office  works. 
+					</p>
+					<p align="justify">
+						This  seminar  aims  to  inspire  a
+						nd  provide  the  participants  with  adequate  information  to 
+						create   valuable   products    through   value 
+						co
+						-
+						creation   and 
+						management.    In   order    to 
+						successfully 
+						build  and 
+						sell  products,  business  owners  must  understand  what  the  customers 
+						want
+						with  the  concept  of  value 
+						co
+						-
+						creation
+						. 
+						Then  with 
+						value  management,  customers  can 
+						share  the  value  they  seek  from  products  that  benefit  them  and  the  business  owners  can  then 
+						create  products  that  fulfill  them, 
+						This  is 
+						a  win 
+						-
+						win  solution  where  both  parties  can 
+						maximize  the  benefits  t
+						hey  seek.
+
+					</p>
+
                 </div>
             </div>
         </div>
@@ -113,7 +239,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Our Goals</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -122,7 +248,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
                         <h3>Sturdy Templates</h3>
                         <p class="text-muted">Our templates are updated regularly so they don't break.</p>
                     </div>
