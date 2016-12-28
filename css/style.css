@@ -41,6 +41,21 @@
     background-color: #FFF400 !important;
 }
 
+.social-media-twitter
+{
+    width: 58px;
+}
+
+.social-media-instagram
+{
+    width: 53px;
+}
+
+.social-media-askfm
+{
+    width: 64px;
+}
+
 @media only screen and (max-device-width:768px) { 
     .navbar-brand
     {        
