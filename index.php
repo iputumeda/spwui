@@ -249,7 +249,21 @@
                     </div>
                 </div>
             </div>
-        </section>        
+        </section>   
+
+        <section class="bg-primary" id="ticket">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-black text-left"><b>PRE-ORDER TICKET</b></h2>
+                        <hr>
+                        <p class="text-left">
+                            The registration is still closed <br> For more info: spwiui2017@gmail.com // @uil6622x
+                        </p>                        
+                    </div>
+                </div>
+            </div>
+        </section>     
 
         <section class="bg-primary" id="contact">  
             <div class="container">
