@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -25,6 +25,8 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,59 +36,41 @@
 
 </head>
 
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background-color: black!important; ">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header" >
+<body>
+    <div class="container-fluid">        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img class="navbar-image" src="img/logo_aja_crop.png"/>
+                    </a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">            
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">WHAT</a></li>
+                        <li><a href="#">BACKGROUND</a></li>
+                        <li><a href="#">GOAL</a></li>
+                        <li><a href="#">TIMELINE</a></li>
+                        <li><a href="#">EVENT &amp; HISTORY</a></li>
+                        <li><a href="#">LOCATION</a></li>
+                        <li><a href="#">PRE-ORDER TICKET</a></li>
+                        <li><a href="#">CONTACT PERSON</a></li>
+                    </ul>
+                </div>                    
+            </div>            
+        </nav>
          
-                            <a class="navbar-brand page-scroll" href="#page-top" style="padding: 10px">
-                             <img src="img/logo_aja_crop.png"  height="50" width="100">
-                             <br>
-                 </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                <ul class="nav navbar-nav navbar-right" >
-                    <li>
-                        <a class="page-scroll" href="#what" style="font-size: 18px; margin-top: 15px;color:white">What</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#background" style="font-size: 18px; margin-top: 15px;color:white">Background</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#goal" style="font-size: 18px; margin-top: 15px;color:white">Goal</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#timeline" style="font-size: 18px; margin-top: 15px;color:white">Timeline</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#eventhistory" style="font-size: 18px; margin-top: 15px;color:white"> Event & History</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#location" style="font-size: 18px; margin-top: 15px;color:white">Location</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#preorder" style="font-size: 18px; margin-top: 15px;color:white">Pre-order Tickets</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact" style="font-size: 18px; margin-top: 15px;color:white">Contact Person</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                    
-            <img src="img/logo_baru_crop.png"  height="450" width="900" >
-            <br>
+        <div class="jumbotron text-center">
+            <div class="">
+                <img class="jumbo-image" src="img/logo_baru_crop.png" />
+                <br>
                 <h2 style="color:#1a2bae;">SEMINAR PENGEMBANGAN WAWASAN INDUSTRI</h2>
                 <br>
                 <h1  style="color:#fff400;font-size: 60px"><b>February 2017</b></h1>
@@ -94,157 +78,149 @@
                 <a href="#what" class="btn btn-primary btn-xl page-scroll" style="background-color:black;">Find Out More</a>
             </div>
         </div>
-    </header>
 
-    <section class="bg-primary" id="what">
-        <div class="container">
+        <!-- <section class="bg-primary" id="what">        
             <div class="row" style="">
 
                 <div class="col-lg-8">
                 <h1>WHAT IS SPWI 2017 ?</h2>
                 <br>
-                 	<p align="justify">
-                 		Seminar  Pengembangan  Wawasan  Industri  (SPWI)  was first  delivered in  1999 and 
-						has  evolved  to  become  a  national  seminar  since 
-						2009.  Organized  by  Ikatan  Mahasiswa 
-						Teknik  Industri  (IMTI),  SPWI  is  annual  event  of  the  Department  of  Industrial
-						Engineering, 
-						Faculty  of  Engineering  Universitas  Indonesia.
-						The  aim  of  the  event  is  to  broaden  the 
-						horizon  of  views  of  not  just  Industrial  Engineering  students,  but  also  students  from  other 
-						disciplines.   Therefore,   each   year   SPWI   has   different   topics   based 
-						on   national   and 
-						international  current   issues.      This   is   to  make   sure   that   university   students,   as   future 
-						professionals,  will  be ready  to prepare and  contribute  for  the  solutions  of these  issues.
-					</p>
-					<p align="justify">
-						The  rise  of  Gojek,  Tokopedia,  Traveloka  and  other  notable  digital  start-ups  in 
-						Indonesia,  has  trigger  us  to 
-						bring  the  topic  of  entrepreneurship
-						that  is  in  the  heart  of  these start-ups. 
-						With  the Government  commitment  to increase  Indonesia’s  ranking in  the  World 
-						Bank’s Ease of  Doing Business, the  opportunity for entre
-						preneurs  in  building  and  growing 
-						their  business  looks  promising.  With  these  in  mind, 
-						we  proudly  present  you 
-						“
-						Approaching 
-						Entrepreneurial  World:  Start  Your  Strategic  Business  Through  Value  Management
-						”
-					</p>
-					<p align="justify">
-						SPWI  will  look  at  this  issue  by well-combined
-						with  multi-perspective sessions of variety  of  speaker from  ABG sectors  of Academics, 
-						Business enterprises  and Government. 
-						The   discussion   will   deliver   topics   regarding   entrepreneurship,   market,   innovation 
-						and sustainability, and value co-creation.  We  also 
-						introduce  3 new  activities in  SPWI
-						2017:Pre-Event/Exhibition,  Business  Plan  Competition  and  Workshop. 
-						These  3  events  will  act 
-						as  catalysts  for  its  participant  in  understanding  required  to  start  a  new  business,  creating 
-						value  together  with  the  customer  (co-creation) 
-						and  growing  it  into  a  sustainable  business 
-						endeavor. 
+                    <p align="justify">
+                        Seminar  Pengembangan  Wawasan  Industri  (SPWI)  was first  delivered in  1999 and 
+                        has  evolved  to  become  a  national  seminar  since 
+                        2009.  Organized  by  Ikatan  Mahasiswa 
+                        Teknik  Industri  (IMTI),  SPWI  is  annual  event  of  the  Department  of  Industrial
+                        Engineering, 
+                        Faculty  of  Engineering  Universitas  Indonesia.
+                        The  aim  of  the  event  is  to  broaden  the 
+                        horizon  of  views  of  not  just  Industrial  Engineering  students,  but  also  students  from  other 
+                        disciplines.   Therefore,   each   year   SPWI   has   different   topics   based 
+                        on   national   and 
+                        international  current   issues.      This   is   to  make   sure   that   university   students,   as   future 
+                        professionals,  will  be ready  to prepare and  contribute  for  the  solutions  of these  issues.
+                    </p>
+                    <p align="justify">
+                        The  rise  of  Gojek,  Tokopedia,  Traveloka  and  other  notable  digital  start-ups  in 
+                        Indonesia,  has  trigger  us  to 
+                        bring  the  topic  of  entrepreneurship
+                        that  is  in  the  heart  of  these start-ups. 
+                        With  the Government  commitment  to increase  Indonesia’s  ranking in  the  World 
+                        Bank’s Ease of  Doing Business, the  opportunity for entre
+                        preneurs  in  building  and  growing 
+                        their  business  looks  promising.  With  these  in  mind, 
+                        we  proudly  present  you 
+                        “
+                        Approaching 
+                        Entrepreneurial  World:  Start  Your  Strategic  Business  Through  Value  Management
+                        ”
+                    </p>
+                    <p align="justify">
+                        SPWI  will  look  at  this  issue  by well-combined
+                        with  multi-perspective sessions of variety  of  speaker from  ABG sectors  of Academics, 
+                        Business enterprises  and Government. 
+                        The   discussion   will   deliver   topics   regarding   entrepreneurship,   market,   innovation 
+                        and sustainability, and value co-creation.  We  also 
+                        introduce  3 new  activities in  SPWI
+                        2017:Pre-Event/Exhibition,  Business  Plan  Competition  and  Workshop. 
+                        These  3  events  will  act 
+                        as  catalysts  for  its  participant  in  understanding  required  to  start  a  new  business,  creating 
+                        value  together  with  the  customer  (co-creation) 
+                        and  growing  it  into  a  sustainable  business 
+                        endeavor. 
 
-					</p>
+                    </p>
 
                 </div>
-            </div>
-        </div>
-    </section>
+            </div>        
+        </section> -->
 
-    <section class="bg-primary" id="background">
-        <div class="container">
+        <!-- <section class="bg-primary" id="background">            
             <div class="row" style="">
 
                 <div class="col-lg-8">
                 <h1>OUR BACKGROUND </h2>
-                 <br>	
-                 	<p align="justify">
-                 		Small  and  medium  sized  enterprises  (MSMEs)  and  entrepreneurs  play  an  important  role  in 
-						the  Indonesian 
-						Economy.  As  in  the  case  of  United  States,  young  firms  have  been  shown  to 
-						be  a  more  i
-						mportant  source  of  net  job  creation  than  incumbent  firm. 
-						Entrepreneurship  is 
-						one  of  the  highly  discussed  topic  recently. 
-						Therefore,  o
-						ne  of  the 
-						important 
-						indicator  of  a 
-						country’s prosperity is the  ratio of entrepreneurs  or business owners.  A country with  h
-						igh 
-						amount  of  business  owners  would  have  a  competitive  society,  one  where  the  population 
-						strive  to create value  while  simultaneously  increase  the well
-						-
-						being  of the  society
-					</p>
-					<p align="justify">
-						Indonesia  currently  sits  among  the  countries  with  lowest  entrepreneurs  or  business 
-						owners 
-						compared  to  the  national  population,  even  among  ASEAN  countries.  On  the  other  side, 
-						Indonesia  has  one  of  the  largest  and  fastest  in  growth  young 
-						productive 
-						population  in  the 
-						world
-						. 
-						This  come  at  the 
-						time 
-						where 
-						information  technologies  have  been 
-						aggr
-						essively 
-						adopted in  broad  applications  for  various  purposes and  reasons.  This  create  a  well  informed 
-						and  highly   enthusiastic  large   young   population  who   sees   entrepreneurship  as   a   better 
-						venture  than 
-						traditional 
-						office  works. 
-					</p>
-					<p align="justify">
-						This  seminar  aims  to  inspire  a
-						nd  provide  the  participants  with  adequate  information  to 
-						create   valuable   products    through   value 
-						co
-						-
-						creation   and 
-						management.    In   order    to 
-						successfully 
-						build  and 
-						sell  products,  business  owners  must  understand  what  the  customers 
-						want
-						with  the  concept  of  value 
-						co
-						-
-						creation
-						. 
-						Then  with 
-						value  management,  customers  can 
-						share  the  value  they  seek  from  products  that  benefit  them  and  the  business  owners  can  then 
-						create  products  that  fulfill  them, 
-						This  is 
-						a  win 
-						-
-						win  solution  where  both  parties  can 
-						maximize  the  benefits  t
-						hey  seek.
+                 <br>   
+                    <p align="justify">
+                        Small  and  medium  sized  enterprises  (MSMEs)  and  entrepreneurs  play  an  important  role  in 
+                        the  Indonesian 
+                        Economy.  As  in  the  case  of  United  States,  young  firms  have  been  shown  to 
+                        be  a  more  i
+                        mportant  source  of  net  job  creation  than  incumbent  firm. 
+                        Entrepreneurship  is 
+                        one  of  the  highly  discussed  topic  recently. 
+                        Therefore,  o
+                        ne  of  the 
+                        important 
+                        indicator  of  a 
+                        country’s prosperity is the  ratio of entrepreneurs  or business owners.  A country with  h
+                        igh 
+                        amount  of  business  owners  would  have  a  competitive  society,  one  where  the  population 
+                        strive  to create value  while  simultaneously  increase  the well
+                        -
+                        being  of the  society
+                    </p>
+                    <p align="justify">
+                        Indonesia  currently  sits  among  the  countries  with  lowest  entrepreneurs  or  business 
+                        owners 
+                        compared  to  the  national  population,  even  among  ASEAN  countries.  On  the  other  side, 
+                        Indonesia  has  one  of  the  largest  and  fastest  in  growth  young 
+                        productive 
+                        population  in  the 
+                        world
+                        . 
+                        This  come  at  the 
+                        time 
+                        where 
+                        information  technologies  have  been 
+                        aggr
+                        essively 
+                        adopted in  broad  applications  for  various  purposes and  reasons.  This  create  a  well  informed 
+                        and  highly   enthusiastic  large   young   population  who   sees   entrepreneurship  as   a   better 
+                        venture  than 
+                        traditional 
+                        office  works. 
+                    </p>
+                    <p align="justify">
+                        This  seminar  aims  to  inspire  a
+                        nd  provide  the  participants  with  adequate  information  to 
+                        create   valuable   products    through   value 
+                        co
+                        -
+                        creation   and 
+                        management.    In   order    to 
+                        successfully 
+                        build  and 
+                        sell  products,  business  owners  must  understand  what  the  customers 
+                        want
+                        with  the  concept  of  value 
+                        co
+                        -
+                        creation
+                        . 
+                        Then  with 
+                        value  management,  customers  can 
+                        share  the  value  they  seek  from  products  that  benefit  them  and  the  business  owners  can  then 
+                        create  products  that  fulfill  them, 
+                        This  is 
+                        a  win 
+                        -
+                        win  solution  where  both  parties  can 
+                        maximize  the  benefits  t
+                        hey  seek.
 
-					</p>
+                    </p>
 
                 </div>
-            </div>
-        </div>
-    </section>
+            </div>            
+        </section> -->
 
-    <section id="services">
-        <div class="container">
+        <!-- <section id="services">            
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Goals</h2>
                     <hr class="primary">
                 </div>
-            </div>
-        </div>
-        <div class="container">
+            </div>                        
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
@@ -274,118 +250,116 @@
                         <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </div>            
+        </section> -->
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
+        <!-- <section class="no-padding" id="portfolio">
+            <div class="container-fluid">
+                <div class="row no-gutter popup-gallery">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                            <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                            <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                            <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                            <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                            <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                            <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> -->
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+        <!-- <aside class="bg-dark">
+            <div class="text-center">
+                <div class="call-to-action">
+                    <h2>Free Download at Start Bootstrap!</h2>
+                    <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+                </div>
             </div>
-        </div>
-    </aside>
+        </aside> -->
 
-    <section id="contact">
-        <div class="container">
+        <!-- <section id="contact">            
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
@@ -400,9 +374,10 @@
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
                 </div>
-            </div>
-        </div>
-    </section>
+            </div>            
+        </section> -->
+
+    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
