@@ -47,44 +47,42 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand page-scroll" href="#home">
                         <img class="navbar-image" src="img/logo_aja_crop.png"/>
                     </a>
                 </div>
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">            
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">WHAT</a></li>
-                        <li><a href="#">BACKGROUND</a></li>
-                        <li><a href="#">GOAL</a></li>
-                        <li><a href="#">TIMELINE</a></li>
-                        <li><a href="#">EVENT &amp; HISTORY</a></li>
-                        <li><a href="#">LOCATION</a></li>
-                        <li><a href="#">PRE-ORDER TICKET</a></li>
-                        <li><a href="#">CONTACT PERSON</a></li>
+                        <li><a href="#what" class="page-scroll">WHAT</a></li>
+                        <li><a href="#background" class="page-scroll">BACKGROUND</a></li>
+                        <li><a href="#goals" class="page-scroll">GOAL</a></li>
+                        <li><a href="#" class="page-scroll">TIMELINE</a></li>
+                        <li><a href="#" class="page-scroll">EVENT &amp; HISTORY</a></li>
+                        <li><a href="#" class="page-scroll">LOCATION</a></li>
+                        <li><a href="#" class="page-scroll">PRE-ORDER TICKET</a></li>
+                        <li><a href="#contact" class="page-scroll">CONTACT PERSON</a></li>
                     </ul>
                 </div>                    
             </div>            
         </nav>
          
-        <div class="jumbotron text-center">
-            <div class="">
-                <img class="jumbo-image" src="img/logo_baru_crop.png" />
-                <br>
-                <h2 style="color:#1a2bae;">SEMINAR PENGEMBANGAN WAWASAN INDUSTRI</h2>
-                <br>
-                <h1  style="color:#fff400;font-size: 60px"><b>February 2017</b></h1>
-                <br>
-                <a href="#what" class="btn btn-primary btn-xl page-scroll" style="background-color:black;">Find Out More</a>
-            </div>
+        <div class="jumbotron text-center" id="home">            
+            <img class="jumbo-image" src="img/logo_baru_crop.png" />
+            <br>
+            <h2 style="color:#1a2bae;">SEMINAR PENGEMBANGAN WAWASAN INDUSTRI</h2>
+            <br>
+            <h1  style="color:#fff400;font-size: 60px"><b>February 2017</b></h1>
+            <br>
+            <a href="#what" class="btn btn-primary btn-xl page-scroll" style="background-color:black;">Find Out More</a>            
         </div>
 
         <section class="bg-primary" id="what">        
             <div class="container">
                 <div class="row">                
-                    <div class="col-lg-8">
-                        <h1 class="text-center">WHAT IS SPWI 2017 ?</h2>
-                        <br>
+                    <div class="col-lg-12">
+                        <h2 class="text-left text-black"><b>WHAT IS SPWI 2017 ?</b></h2>
+                        <hr>
                         <p class="text-justify">
                             Seminar Pengembangan Wawasan Industri (SPWI) was first delivered in 1999 and has evolved to become a national seminar since 2009. Organized by Ikatan Mahasiswa Teknik Industri (IMTI), SPWI is annual event of the Department of Industrial Engineering, Faculty of Engineering Universitas Indonesia. The aim of the event is to broaden the horizon of views of not just Industrial Engineering students, but also students from other disciplines. Therefore, each year SPWI has different topics based on national and international current issues. This is to make sure that university students, as future professionals, will be ready to prepare and contribute for the solutions of these issues.
                         </p>
@@ -102,11 +100,11 @@
         <section class="bg-primary" id="background">            
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="text-center">OUR BACKGROUND</h2>
-                        <br>   
+                    <div class="col-lg-12">
+                        <h2 class="text-left text-black"><b>OUR BACKGROUND</b></h2>
+                        <hr>
                         <p align="justify">
-                            Small and medium sized enterprises(MSMEs) and entrepreneurs play an important role in the Indonesian Economy. As in the case of United States, young firms have been shown to be a more important source of net job creation than incumbent firm. Entrepreneurship is one of the highly discussed topic recently. Therefore, one of the important indicator of a country’s prosperity is the ratio of entrepreneurs or business owners. A country with high amount of business owners would have a competitive society, one where the population strive to create value while simultaneously increase the well-being of the society
+                            Small and medium sized enterprises (MSMEs) and entrepreneurs play an important role in the Indonesian Economy. As in the case of United States, young firms have been shown to be a more important source of net job creation than incumbent firm. Entrepreneurship is one of the highly discussed topic recently. Therefore, one of the important indicator of a country’s prosperity is the ratio of entrepreneurs or business owners. A country with high amount of business owners would have a competitive society, one where the population strive to create value while simultaneously increase the well-being of the society
                         </p>
                         <p align="justify">
                             Indonesia currently sits among the countries with lowest entrepreneurs or business owners compared to the national population, even among ASEAN countries. On the other side, Indonesia has one of the largest and fastest in growth young productive population in the world. This come at the time where information technologies have been aggressively adopted in broad applications for various purposes and reasons. This create a well informed and highly enthusiastic large young population who sees entrepreneurship as a better venture than traditional office works. 
@@ -119,49 +117,47 @@
             </div>
         </section>
 
-        <!-- <section id="services">            
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Goals</h2>
-                    <hr class="primary">
-                </div>
-            </div>                        
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+        <section class="bg-primary" id="goals">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-black"><b>OUR GOALS</b></h2>
+                        <hr>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>            
-        </section> -->
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                            <h3>Ready to Ship</h3>
+                            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        </div>
+                    </div>   
 
-        <!-- <section class="no-padding" id="portfolio">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                            <h3>Up to Date</h3>
+                            <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        </div>
+                    </div>                
+                
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                            <h3>Made with Love</h3>
+                            <p class="text-muted">You have to make your websites with love these days!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>                      
+        </section>
+
+        <section class="no-padding" id="portfolio">
             <div class="container-fluid">
-                <div class="row no-gutter popup-gallery">
-                    <div class="col-lg-4 col-sm-6">
+                <div class="no-gutter popup-gallery">
+                    <div class="col-lg-4 col-md-6">
                         <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
                             <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
@@ -253,34 +249,40 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>        
 
-        <!-- <aside class="bg-dark">
-            <div class="text-center">
-                <div class="call-to-action">
-                    <h2>Free Download at Start Bootstrap!</h2>
-                    <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
-                </div>
-            </div>
-        </aside> -->
+        <section class="bg-primary" id="contact">  
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-black text-left"><b>CONTACT PERSON</b></h2>
+                        <hr>
+                    </div>
+                    <div class=" col-sm-4 text-center">
+                        <i class="fa fa-phone fa-3x sr-contact"></i>
+                        <p>123-456-6789</p>
+                    </div>
+                    <div class=" col-sm-4 text-center">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    </div>
+                </div>  
 
-        <!-- <section id="contact">            
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-                </div>
-            </div>            
-        </section> -->
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a href="http://instagram.com/spwi_ui" target="_blank">
+                            <img class="social-media-twitter" src="img/icon/twitter.png" alt="twitter contact">    
+                        </a>&nbsp;&nbsp;
+                        <a href="http://twitter.com/spwi_ui" target="_blank">
+                            <img class="social-media-instagram" src="img/icon/instagram.png" alt="instagram contact">    
+                        </a>&nbsp;
+                        <a href="http://ask.fm/spwi_ui" target="_blank">
+                            <img class="social-media-askfm" src="img/icon/askfm.png" alt="ask.fm contact">    
+                        </a>
+                    </div>                    
+                </div>                          
+            </div>          
+        </section>
 
     </div>
 
