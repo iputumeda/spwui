@@ -54,14 +54,14 @@
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">            
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#what" class="page-scroll">WHAT</a></li>
-                        <li><a href="#background" class="page-scroll">BACKGROUND</a></li>
-                        <li><a href="#goals" class="page-scroll">GOAL</a></li>
-                        <li><a href="#" class="page-scroll">TIMELINE</a></li>
-                        <li><a href="#" class="page-scroll">EVENT &amp; HISTORY</a></li>
-                        <li><a href="#" class="page-scroll">LOCATION</a></li>
-                        <li><a href="#" class="page-scroll">PRE-ORDER TICKET</a></li>
-                        <li><a href="#contact" class="page-scroll">CONTACT PERSON</a></li>
+                        <li><a href="#what" class="page-scroll text-center">What</a></li>
+                        <li><a href="#background" class="page-scroll text-center">Background</a></li>
+                        <li><a href="#goals" class="page-scroll text-center">Goals</a></li>
+                        <li><a href="#" class="page-scroll text-center">Timeline</a></li>
+                        <li><a href="#" class="page-scroll text-center">Event &amp; History</a></li>
+                        <li><a href="#" class="page-scroll text-center">Location</a></li>
+                        <li><a href="#ticket" class="page-scroll text-center">Pre-Order Ticket</a></li>
+                        <li><a href="#contact" class="page-scroll text-center">Contact Person</a></li>
                     </ul>
                 </div>                    
             </div>            

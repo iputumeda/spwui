@@ -1,7 +1,17 @@
+body
+{
+    font-family: 'Open Sans';
+}
+
 hr
 {
     border: 2px solid #FFF;
     max-width: 100%;
+}
+
+.inline-block
+{
+    display: inline-block;
 }
 
 .text-black
@@ -32,8 +42,7 @@ hr
 
 .navbar-brand
 {    
-    padding: 0 !important;
-    margin-top: 8px !important;
+    padding: 8px !important;    
     margin-left: 0 !important;
 }
 
@@ -77,11 +86,16 @@ hr
     width: 64px;
 }
 
+.contact-icon
+{
+    width: 48px;
+}
+
 @media only screen and (max-device-width:768px) { 
     .navbar-brand
     {        
-        margin-top: 12px !important;
-        margin-left: calc(50vw - 36px) !important;
+        margin-top: 8px !important;
+        margin-left: calc(50vw - 44px) !important;
     }   
 
     .navbar-toggle
