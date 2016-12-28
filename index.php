@@ -257,17 +257,26 @@
                     <div class="col-lg-12">
                         <h2 class="text-black text-left"><b>CONTACT PERSON</b></h2>
                         <hr>
+                    </div>                    
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <h3>Naomi Natasha Sianipar</h3>
+                        <img src="img/icon/email.png" class="contact-icon " alt="email contact">
+                        <span>&nbsp;&nbsp;naomisnpr@gmail.com</span><br><br>
+                        <img src="img/icon/phone.png" class="contact-icon " alt="phone contact">
+                        <span>&nbsp;&nbsp;085262772047</span>
                     </div>
-                    <div class=" col-sm-4 text-center">
-                        <i class="fa fa-phone fa-3x sr-contact"></i>
-                        <p>123-456-6789</p>
-                    </div>
-                    <div class=" col-sm-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                        <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <div class="col-lg-6 col-md-6">
+                        <h3>Harjani Reskya</h3>
+                        <img src="img/icon/email.png" class="contact-icon" alt="email contact">
+                        <span>&nbsp;&nbsp;harjanirezkya@yahoo.com</span><br><br>
+                        <img src="img/icon/phone.png" class="contact-icon " alt="phone contact">
+                        <span>&nbsp;&nbsp;08981432162</span>
                     </div>
                 </div>  
-
+                <br><br><br><br>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <a href="http://instagram.com/spwi_ui" target="_blank">
