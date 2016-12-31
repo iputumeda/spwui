@@ -235,7 +235,7 @@
         </div>
     </section>
 
-    <section id="services">
+    <section id="goal">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -249,27 +249,29 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <h3>EDUCATE</h3>
+                        <p class="text-muted">
+                        	participants   about   the   condition   and   potential   of enterpreneurship   in Indonesia
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x fa-lightbulb-o text-primary sr-icons"></i>
+                        <h3>INSPIRE</h3>
+                        <p class="text-muted">he  participants by sharing  the practitioner’s  experience</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <i class="fa fa-4x fa-lightbulb-o fa-bullhorn text-primary sr-icons"></i>
                         <h3>Up to Date</h3>
                         <p class="text-muted">We update dependencies to keep things fresh.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <i class="fa fa-4x fa-thumbs-up text-primary sr-icons"></i>
                         <h3>Made with Love</h3>
                         <p class="text-muted">You have to make your websites with love these days!</p>
                     </div>

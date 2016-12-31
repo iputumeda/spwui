@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #3498db;
   border-width: 3px;
   max-width: 50px;
 }
@@ -286,7 +286,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #3498db;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
