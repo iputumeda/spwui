@@ -1,0 +1,115 @@
+body
+{
+    font-family: 'Open Sans';
+}
+
+hr
+{
+    border: 2px solid #FFF;
+    max-width: 100%;
+}
+
+.inline-block
+{
+    display: inline-block;
+}
+
+.text-black
+{
+    color: #000;
+}
+
+.text-white
+{
+    color: #FFF;
+}
+
+.navbar-image
+{
+    width: 72px;
+}
+
+.container-fluid
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a 
+{
+    color: #FEFEFE;
+}
+
+.navbar-brand
+{    
+    padding: 8px !important;    
+    margin-left: 0 !important;
+}
+
+.jumbo-image
+{
+    width: 100%;
+}
+
+.bg-primary
+{
+    background-image : url('../img/background-biru.png');
+    background-size: 100% 100%;
+}
+
+.jumbotron
+{    
+    background-image: url('../img/header.png') !important;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.icon-bar
+{
+    background-color: #FFF400 !important;
+}
+
+.social-media-twitter
+{
+    width: 58px;
+}
+
+.social-media-instagram
+{
+    width: 53px;
+}
+
+.social-media-askfm
+{
+    width: 64px;
+}
+
+.contact-icon
+{
+    width: 48px;
+}
+
+@media only screen and (max-device-width:768px) { 
+    .navbar-brand
+    {        
+        margin-top: 8px !important;
+        margin-left: calc(50vw - 44px) !important;
+    }   
+
+    .navbar-toggle
+    {
+        padding: 9px 16px !important;
+        margin-top: 16px !important;
+        border: 1px solid #FFF400 !important;
+        border-radius: 16px !important;
+    }
+}
+
+@media only screen and (min-device-width:768px) {
+    .jumbo-image
+    {
+        width: 64% !important;
+    }
+}
