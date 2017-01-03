@@ -31,6 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  
 
 </head>
 
@@ -251,7 +252,7 @@
                         <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
                         <h3>EDUCATE</h3>
                         <p class="text-muted">
-                        	participants   about   the   condition   and   potential   of enterpreneurship   in Indonesia
+                        	participants about the condition and potential of enterpreneurship in Indonesia
                         </p>
                     </div>
                 </div>
@@ -259,23 +260,92 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-lightbulb-o text-primary sr-icons"></i>
                         <h3>INSPIRE</h3>
-                        <p class="text-muted">he  participants by sharing  the practitioner’s  experience</p>
+                        <p class="text-muted">the participants by sharing the practitioner’s experience</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-lightbulb-o fa-bullhorn text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <i class="fa fa-4x fa-thumbs-up fa-bullhorn text-primary sr-icons"></i>
+                        <h3>REVEAL</h3>
+                        <p class="text-muted">the considerations of creating a strategis business</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-thumbs-up text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x fa-bullhorn text-primary sr-icons"></i>
+                        <h3>ENCOURAGE</h3>
+                        <p class="text-muted">the participants to also participate in real life issues of entrepreneurship</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="history">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Previous Event</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            	<div id="slides">
+				 	<a href="img/2013.jpg" class="portfolio-box">
+                        <img src="img/2013.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="img/2014.jpg" class="portfolio-box">
+                        <img src="img/2014.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="img/2015.jpg" class="portfolio-box">
+                        <img src="img/2015.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="img/2016.jpg" class="portfolio-box">
+                        <img src="img/2016.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+				</div>
             </div>
         </div>
     </section>
@@ -284,8 +354,8 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <a href="img/2013.jpg" class="portfolio-box">
+                        <img src="img/2013.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -299,8 +369,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <a href="img/2014.jpg" class="portfolio-box">
+                        <img src="img/2014.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -314,8 +384,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <a href="img/2015.jpg" class="portfolio-box">
+                        <img src="img/2015.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -328,9 +398,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="img/2016.jpg" class="portfolio-box">
+                        <img src="img/2016.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -343,36 +413,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -419,6 +460,18 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+	
+	 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+
+    </script>
 
 </body>
 
